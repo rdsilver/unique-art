@@ -1,0 +1,15 @@
+<div id='control-panel'>
+  <div id='shape-placement' class='column-left active' data-state='shapePlacementAndColor'>
+    <p>Place shapes and recolor them</p>
+  </div>
+
+  <div id='drag' class='column-right' data-state='drag'>
+    <p>Drag placed shapes around</p>
+  </div>
+</div>
+
+<input id='save_button' type="submit" value="Save">
+
+<%= javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.20/p5.min.js' %>
+<%= javascript_include_tag 'https://rawgit.com/bmoren/p5.collide2D/master/p5.collide2d.js' %>
+<%= javascript_include_tag 'sketch.js' %>
